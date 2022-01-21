@@ -1,0 +1,188 @@
+*, 
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Elements communs*/
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+	margin-right:2rem;
+	margin-left:2rem;
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+h2 {
+	text-align:center;
+	font-size:3rem;
+}
+
+h3 {
+	font-weight:bold;
+	font-style:italic;
+	font-size:2rem;
+	padding-bottom:0.5rem;
+}
+
+
+/*Header*/
+header {
+	display:flex;
+	flex-direction:row;
+	background-color: #EBF5FB;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.logo {
+	height:3rem;
+	width:8rem;
+	margin-top:1.2rem;
+}
+
+.title {
+	margin-left:3rem;
+	font-size:4rem;
+	margin-right:2rem;
+}
+
+/*Présentation de l'Université*/
+.presentation {
+	background-image:url("../assets/UQO1.png");
+	padding-bottom:1rem;
+	padding-top:1rem;
+	padding-left:2rem;
+	padding-right:2rem;
+}
+
+.title_presentation {
+	color:#FBFCFC;
+	padding-bottom:1rem;
+}
+
+.p_presentation {
+	color:#FBFCFC;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.p2_presentation {
+	display:flex;
+	flex-direction:column;
+	color:#FBFCFC;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.p2_presentation_lieu_classe {
+	display:flex;
+	flex-direction:row;
+	padding-bottom:1rem;
+}
+
+.p2_presentation_lieu {
+	flex-basis:50%;
+	padding-right:2rem;
+}
+
+.p2_presentation_classe {
+	flex-basis:50%;
+}
+
+/*Formulaires*/
+.p_formulaire {
+	font-size:0.8rem;
+	text-align:center;
+	padding-bottom:1.5rem;
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+}
+
+.inscription {
+  flex-basis:50%;
+  font-size:1.3rem;
+  text-align:center;
+}
+
+.connexion {
+  flex-basis:50%;
+  font-size:1.3rem;	
+  text-align:center;
+}
+
+/*Footer*/
+footer {
+	background-color: #EBF5FB;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.footer {
+	display:flex;
+	flex-direction:row;
+}
+
+.title_footer {
+	padding-bottom:1rem;
+}
+
+.footer_gatineau {
+	flex-basis:50%;
+	font-size:1.3rem;
+	text-align:center;
+	padding-right:2rem;
+}
+
+.footer_SJ {
+	flex-basis:50%;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+/*Cours*/
+.form-check-label {
+	font-size:1.3rem;
+	text-align:center;
+}
+
+/*.row_cours {
+	display:flex;
+	flex-direction:row;
+	padding-top:1rem;
+	margin-left:11rem;
+}*/
+
+.col_cours {
+	display:flex;
+	flex-direction:column;
+}
+
+.image {
+	margin-left:34rem;
+	padding-bottom:1rem;
+}
+
+.title_cours {
+	padding-top:1rem;
+}
+
+/*Récapitulatif*/
+.p_recapitulatif {
+	padding-top:1rem;
+	padding-bottom:1rem;
+	font-size:1.3rem;
+	text-align:center;
+}
